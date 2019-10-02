@@ -1,0 +1,40 @@
+h1{	
+	color:red;
+	font-family:Helvetica;
+	font-size:60px;
+	position:centre;
+	}
+
+
+
+nav a{
+	border: 3px solid lightgreen;
+	padding:5px;
+	}
+nav a:link {
+	background-color: red;
+	}
+nav a:visited {
+	background-color: cyan;
+	}
+nav a:hover {
+	background-color: lightgreen;
+	}
+nav a:active {
+	background-color: hotpink;
+	}  
+
+
+
+footer{
+	background:cyan;
+}
+
+ul{
+	list-style-type: square;
+	}
+
+dt{
+	font-weight: bold;
+	font-style: italic;
+}
