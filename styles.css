@@ -2,39 +2,55 @@ h1{
 	color:red;
 	font-family:Helvetica;
 	font-size:60px;
-	position:centre;
+	text-align: center;
+	border:2px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
 	}
 
 
+nav {
+	border:2px solid black;
+	height:60px}
 
-nav a{
-	border: 3px solid lightgreen;
-	padding:5px;
-	}
-nav a:link {
-	background-color: red;
-	}
-nav a:visited {
-	background-color: cyan;
-	}
+nav li{
+	display:inline;
+	float:right;git 
+	padding:2px;}
+d
+
+nav a, nav a:visited, nav a:link {
+	text-decoration:none;
+	color:gray;
+	border:2px solid green;
+	width:20px;
+	padding:10px;
+	font-size:20px;
+	background-color:lightgreen;}
 nav a:hover {
-	background-color: lightgreen;
+	background-color:green;
 	}
 nav a:active {
 	background-color: hotpink;
 	}  
 
 
+section{
+	border:2px solid black;
+	position:relative;
+	top:20px}
+
 
 footer{
-	background:cyan;
-}
+	border:2px solid black;}
 
-ul{
-	list-style-type: square;
-	}
 
+.contact_us{
+	border:2px solid black;}
+
+/*
 dt{
 	font-weight: bold;
 	font-style: italic;
-}
+}*/
