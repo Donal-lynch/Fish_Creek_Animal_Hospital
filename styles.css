@@ -1,4 +1,4 @@
-h1{	
+h1{
 	color:red;
 	font-family:Helvetica;
 	font-size:60px;
@@ -16,7 +16,7 @@ nav {
 
 nav li{
 	display:inline;
-	float:right;git 
+	float:right;git
 	padding:2px;}
 d
 
@@ -33,14 +33,52 @@ nav a:hover {
 	}
 nav a:active {
 	background-color: hotpink;
-	}  
+	}
 
 
 section{
-	border:2px solid black;
-	position:relative;
-	top:20px}
+	border:2px solid blue;
+	/*position:relative;
+top:20px*/}
 
+div{
+	border:2px solid black;
+	/*position:relative;
+top:20px*/}
+
+/*
+.body{
+	position: relative;
+	top: 0px;
+	left:0px;
+}
+*/
+
+.services{
+	width:40%;
+	float: left;
+}
+
+.image{
+	width:40%;
+	height: 100%;
+	float: right;
+}
+
+
+br{
+	clear: both;
+}
+
+.contact_us{
+	position: relative;
+	top: 0px;
+	left:0px;
+}
+
+
+
+}
 
 footer{
 	border:2px solid black;}
