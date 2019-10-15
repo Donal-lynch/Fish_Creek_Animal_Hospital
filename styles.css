@@ -18,7 +18,6 @@ nav li{
 	display:inline;
 	float:right;git
 	padding:2px;}
-d
 
 nav a, nav a:visited, nav a:link {
 	text-decoration:none;
@@ -55,30 +54,16 @@ top:20px*/}
   display: flex;
 	flex-direction: row;
   background-color: DodgerBlue;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-}
 
 footer{
-	border:2px solid black;}
+	border:2px solid green;
+}
 
 
 .contact_us{
 	border:2px solid black;}
-
-/*
-dt{
-	font-weight: bold;
-	font-style: italic;
-}*/
