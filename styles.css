@@ -58,7 +58,10 @@ top:20px*/}
 	justify-content: space-around;
 }
 
-
+#gmaps_div{
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;}
 
 footer{
 	border:2px solid green;
